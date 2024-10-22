@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WinAppDriver Automation Suite">
+	<test name="Main Page Testing">
+		<classes>
+			<class name="tests.MainPageTest">
+				<methods>
+					<include name="testing1" />
+					<include name="testing2" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Home Page Testing">
+		<classes>
+			<class name="tests.HomePageTest">
+				<methods>
+					<include name="testing3" />
+					<include name="testing4" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
